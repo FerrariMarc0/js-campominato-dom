@@ -5,9 +5,11 @@ const button = document.getElementById('gen');
 const gameLevel= document.getElementById('difficulty');
 
 
+
 button.addEventListener('click',
  function(){
     const inputLevel= difficulty.value;
+
     switch (inputLevel){
 
         case 'easy':
@@ -29,9 +31,8 @@ button.addEventListener('click',
         case 'hard':
             bigContainer.innerHTML= '';
             for(let i = 1; i <= 49; i++){
-                const createdElement= newElements('div', 'box_49', i, 'azure');
+                const createdElement= newElements('div', 'box_49', i, 'azure', 'red');
                 bigContainer.append(createdElement);
-        
             }
     }
 

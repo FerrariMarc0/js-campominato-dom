@@ -13,6 +13,6 @@
 // Creo una funzione che mi generi 16 numeri randomici che inserirò nel vettore facendo in modo che non generi numeri uguali
 // le posizioni dell'array con quelle delle celle
 // SE l'utente clicca su una posizione che corrisponde sia ad una posizione del vettore, sia all'indice della cella
-// ALLORA questa si colora di rosso ed il programma generando un messaggio con all'interno il risultato negativo
+// ALLORA questa si colora di rosso ed generando un messaggio con all'interno il risultato negativo
 // AL CONTRARIO vado avanti, fin quando non saranno state scoperte tutte le posizioni meno quelle del vettore generando un messaggio di vittoria.
 // Andando avanti scoprendo le celle, contemporaneamente aumento il contatore del punteggio.
