@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Griglia Campo Minato</title>
+</head>
+<body>
+    <header> <!-- HEADER -->
+        <div class="head_container">
+            <div class="header_start">
+                <div class="box_img">
+                    <img src="img/logo-boolean.png" alt="logo">
+                </div>
+                <h1>Campo Minato</h1>
+            </div>
+            
+            <div class="header_end">
+                <form action="get">
+                    <label for="select">Difficoltà:</label>
+                    <select name="select" id="difficulty">
+                        <option value="---">---</option>
+                        <option value="easy">Principiante</option>
+                        <option value="normal">Normale</option>
+                        <option value="hard">Esperto</option>
+                    </select>
+                    <input type="button" value="Play" id="gen">
+                </form>
+            </div>
+        </div>
+    </header>
+            <!-- /HEADER -->
+            <!-- JS-INJECTION-->
+    <main>
+        <div class="container">
+          
+        </div>
+    </main>
+            <!-- /JS-INJECTION -->
+            <!-- FOOTER -->
+    <footer>
+        <div class="foot_container">
+            <span>Made with ❤️ by</span>
+            <a href="https://boolean.careers/">Boolean</a>
+        </div>
+        <div>
+            <h2>Il tuo punteggio:</span>
+            <span id="counter_point"></span>
+        </div>
+    </footer>
+    <script src="js/functions.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
