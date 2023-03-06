@@ -57,6 +57,7 @@ main{
     background-color: #7fffd4;
     justify-content: center;
     flex-grow: 1;
+    flex-direction: column;
 }
 .container{
     height: 37.5rem;
